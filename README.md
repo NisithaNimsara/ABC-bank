@@ -1,4 +1,4 @@
-# ABC Bank — Savings Account Management System
+# ABC Bank - Savings Account Management System
 
 ## Overview
 
@@ -59,47 +59,3 @@ Common example actions (adjust to actual CLI in repo):
 
 - Withdraw:
     python main.py withdraw --account 1001 --amount 1500
-
-If the repository uses a different entrypoint or a GUI/Flask app, refer to the project files for exact commands.
-
-## Data storage
-
-The app uses a simple persistent storage mechanism (JSON/CSV/file-based). Check the repository files to find where account data is stored (commonly a `data/` folder or a JSON file).
-
-## Project structure (example)
-
-- README.md                     — Project documentation
-- main.py / app.py               — Application entrypoint (adjust to repo)
-- bank/ or src/                  — Core modules with account logic
-- data/                          — Persistent storage files
-- tests/                         — Unit tests (if any)
-- requirements.txt               — Python dependencies (if any)
-
-## Testing
-
-If tests exist, run them with:
-
-    pytest
-
-Consider adding unit tests for core behaviors: account creation, deposit/withdraw, and updates.
-
-## Contributing
-
-Contributions are welcome. Suggested workflow:
-1. Fork the repo
-2. Create a feature branch: git checkout -b feature/your-feature
-3. Make changes and add tests
-4. Commit: git commit -m "Add feature"
-5. Push and open a pull request against the `main` branch
-
-## License
-
-If a LICENSE file is not yet present, add one (e.g., MIT) or confirm the desired license.
-
-## Contact
-
-Maintainer: NisithaNimsara (https://github.com/NisithaNimsara)
-
-## Acknowledgements
-
-Built for ABC Bank (Sri Lanka). Thank you to contributors and testers.
